@@ -6,50 +6,51 @@ import SectionContainer from "../layout/SectionContainer";
 
 const newsData = [
   {
-    title: "New Keratin Treatment Service",
-    date: "February 20, 2025",
+    title: "Introducing Luxury Pedicure Services",
+    date: "March 17, 2025",
     tag: "Services",
     image: "",
     content: [
-      "We are excited to introduce our professional keratin treatment service, designed to leave your hair smooth, shiny, and frizz-free.",
-      "Using the latest techniques and premium products, our keratin treatments ensure long-lasting results that keep your hair looking its best.",
-      "Visit us to learn more about this transformative service and schedule your appointment today!",
+      "Relax and rejuvenate with our new luxury pedicure services at Artisan Nails.",
+      "Enjoy a spa-quality experience featuring exfoliation, massage, and expert nail care, leaving your feet soft and refreshed.",
+      "Visit us to learn more about this pampering service and schedule your appointment today.",
     ],
   },
   {
-    title: "Bridal Hair Styling Packages",
-    date: "February 1, 2025",
+    title: "Nail Art & Design Special Offer",
+    date: "March 3, 2025",
     tag: "Promotions",
     image: "",
     content: [
-      "Your wedding day deserves nothing less than perfection! Aurora Hair Spa now offers exclusive bridal hair styling packages tailored to your needs.",
-      "From timeless updos to modern waves, our expert stylists work closely with you to create your dream look for the big day.",
-      "Contact us to book your consultation and make your wedding day truly unforgettable.",
+      "Unleash your creativity with our limited-time offer on nail art and design services.",
+      "Our skilled nail artists create stunning, custom designs to reflect your unique style and personality.",
+      "Don’t miss this chance to elevate your nails – book your appointment today!",
     ],
   },
   {
-    title: "Balayage & Highlights Special Offer",
-    date: "January 26, 2025",
+    title: "Exclusive Bridal Nail Packages",
+    date: "February 26th, 2025",
     tag: "Promotions",
     image: "",
     content: [
-      "Achieve that perfect sun-kissed glow with our limited-time offer on balayage and highlights services.",
-      "Our color specialists use advanced techniques to create natural-looking tones that complement your style.",
-      "Don’t miss this opportunity to enhance your look – book your appointment now!",
+      "Make your big day even more special with our exclusive bridal nail packages at Artisan Nails.",
+      "From timeless French manicures to custom nail art that matches your wedding theme, we ensure your nails are picture-perfect for the occasion.",
+      "Contact us today to schedule your consultation and let us help you shine on your special day.",
     ],
   },
   {
-    title: "Grand Opening of Aurora Hair Spa",
-    date: "January 9, 2025",
+    title: "Grand Opening of Artisan Nails",
+    date: "February 20, 2025",
     tag: "Events",
     image: "",
     content: [
-      "We are thrilled to announce the grand opening of Aurora Hair Spa! Join us in celebrating this exciting milestone with exclusive offers and promotions.",
-      "Experience luxurious hair care and styling services designed to make you look and feel your best.",
-      "Book your appointment today and be part of the Aurora Hair Spa family!",
+      "We are thrilled to announce the grand opening of Artisan Nails! Celebrate this exciting milestone with us and enjoy exclusive promotions and giveaways.",
+      "Experience premium nail care services, from classic manicures to intricate nail art, all tailored to your style.",
+      "Book your appointment today and join the Artisan Nails family for a luxurious self-care journey!",
     ],
-  }
+  },
 ];
+
 
 
 const News = () => {
