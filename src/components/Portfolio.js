@@ -12,75 +12,76 @@ import { Detail, Soundcloud } from "./Popup";
 // hard-coded data for portfolio section
 const portfolioData = [
   {
-    title: "Elegant Haircut",
-    category: "Haircuts & Styling",
-    image: "/assets/img/portfolio/elegant-haircut.jpg",
+    title: "Classic Manicure",
+    category: "Classic Manicures",
+    image: "/assets/img/portfolio/classic-manicure.jpg",
     content: [
-      "Experience the ultimate in haircuts with our expert stylists who are dedicated to crafting the perfect style for you.",
-      "Whether you’re looking for a classic trim or a bold new look, our attention to detail ensures a result you’ll love.",
-      "Step into a world of luxury and let us transform your hairstyle with precision and care."
+      "Pamper your hands with our luxurious classic manicure services.",
+      "Our expert technicians shape, buff, and polish your nails to perfection, leaving your hands looking flawless.",
+      "Enjoy a relaxing experience that revitalizes your nails and cuticles for a polished and sophisticated finish."
     ],
   },
   {
-    title: "Balayage Perfection",
-    category: "Balayage & Highlights",
-    image: "/assets/img/portfolio/balayage-hair.jpg",
+    title: "Gel Polish Perfection",
+    category: "Gel Polish Applications",
+    image: "/assets/img/portfolio/gel-polish.jpg",
     content: [
-      "Achieve that sun-kissed glow with our exquisite balayage and highlighting services.",
-      "Our color specialists use advanced techniques to create a seamless, natural-looking blend of tones tailored to your style.",
-      "Let your hair shine with radiant highlights that enhance your beauty and add dimension to your look."
+      "Discover long-lasting shine with our premium gel polish application.",
+      "Choose from a wide range of colors and finishes to match your style and occasion.",
+      "Our skilled team ensures a flawless application that resists chipping and lasts for weeks."
     ],
   },
   {
-    title: "Root Touch-Up Magic",
-    category: "Root Touch-Ups",
-    image: "/assets/img/portfolio/hair-roots.jpg",
+    title: "Creative Nail Art",
+    category: "Nail Art & Designs",
+    image: "/assets/img/portfolio/nail-art.jpg",
     content: [
-      "Say goodbye to grown-out roots with our professional root touch-up services.",
-      "We match your existing color perfectly, ensuring a flawless and refreshed appearance.",
-      "Keep your hair looking polished and vibrant with our quick and effective touch-up solutions."
+      "Unleash your creativity with our custom nail art and designs.",
+      "From minimalist patterns to intricate details, our talented artists bring your vision to life.",
+      "Let your nails become a canvas for unique and personalized expressions of style."
     ],
   },
   {
-    title: "Smooth Keratin",
-    category: "Keratin Treatments",
-    image: "/assets/img/portfolio/keratin-treatment.jpg",
+    title: "Acrylic Nail Enhancements",
+    category: "Acrylic Nail Enhancements",
+    image: "/assets/img/portfolio/acrylic-nails.jpg",
     content: [
-      "Tame unruly hair with our transformative keratin treatments designed to leave your hair smooth and silky.",
-      "Our treatments reduce frizz, enhance shine, and improve manageability for a stunning finish.",
-      "Enjoy long-lasting results that keep your hair looking flawless, no matter the occasion."
+      "Enhance the beauty of your hands with our durable acrylic nail services.",
+      "Perfect for adding length, strength, and style, our acrylic nails are tailored to your preferences.",
+      "Enjoy a flawless finish that complements your look, whether it's bold or natural."
     ],
   },
   {
-    title: "Luxury Blowout",
-    category: "Luxury Blowouts",
-    image: "/assets/img/portfolio/blowout-hair.jpg",
+    title: "Luxury Pedicure",
+    category: "Luxury Pedicures",
+    image: "/assets/img/portfolio/pedicure.jpg",
     content: [
-      "Indulge in a luxurious blowout that leaves your hair feeling soft, bouncy, and full of life.",
-      "Our stylists use premium products and expert techniques to create a polished, long-lasting look.",
-      "Perfect for any special event or simply treating yourself to a day of pampering."
+      "Treat your feet to the ultimate relaxation with our luxury pedicure services.",
+      "Our treatments include exfoliation, massage, and polish, leaving your feet soft and rejuvenated.",
+      "Step out in style with perfectly groomed nails and a refreshing spa experience."
     ],
   },
   {
-    title: "Bridal Elegance",
-    category: "Bridal Hair Styling",
-    image: "/assets/img/portfolio/wedding-hair.jpg",
+    title: "Bridal Nail Perfection",
+    category: "Bridal Nail Packages",
+    image: "/assets/img/portfolio/bridal-nails.jpg",
     content: [
-      "Make your wedding day unforgettable with our bespoke bridal hair styling services.",
-      "From timeless updos to soft waves, we create a look that complements your gown and enhances your natural beauty.",
-      "Trust our experienced team to ensure your hair is picture-perfect for your special day."
+      "Make your big day even more special with our bridal nail packages.",
+      "Our expert technicians work with you to create the perfect look, from classic elegance to show-stopping designs.",
+      "Ensure your hands and feet are photo-ready for every moment of your wedding celebration."
     ],
-  }
+  },
 ];
+
 
 const Portfolio = () => {
   const categories = [
-    "Haircuts & Styling",
-    "Balayage & Highlights",
-    "Root Touch-Ups",
-    "Keratin Treatments",
-    "Luxury Blowouts",
-    "Bridal Hair Styling"
+    "Classic Manicures",
+    "Gel Polish Applications",
+    "Nail Art & Designs",
+    "Acrylic Nail Enhancements",
+    "Luxury Pedicures",
+    "Bridal Nail Packages"
   ];
 
   const ModalVideo = dynamic(
