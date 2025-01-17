@@ -14,84 +14,84 @@ const Service = () => {
 
   const services = [
     {
-      img: "/assets/img/service/haircutting-service.jpg",
-      icon: "/assets/img/service/scissors.svg",
-      text: "Precision haircuts designed to suit your style and personality.",
+      img: "",
+      icon: "",
+      text: "Pamper your hands with our luxurious classic manicure services.",
       date: "Updated: January 3, 2025",
-      title: "Haircuts & Styling",
+      title: "Classic Manicures",
       text1:
-        "At Aurora Hair Spa, we specialize in precision haircuts and styling that reflect your unique personality. Whether you’re looking for a classic cut or a bold new look, our experienced stylists are here to make it happen.",
+        "At Artisan Nails, we specialize in classic manicures that leave your hands looking and feeling their best. Our skilled technicians focus on shaping, buffing, and polishing your nails to perfection.",
       text2:
-        "A great haircut can transform not just your appearance but also your confidence. Let our experts help you achieve a style you’ll love.",
+        "A classic manicure is the foundation of elegant hands. Enjoy a relaxing experience that revitalizes your nails and cuticles.",
       text3:
-        "From consultations to finishing touches, our team ensures that every haircut and style is crafted to perfection, making you feel your absolute best.",
+        "Whether it’s for a special occasion or everyday beauty, our manicures ensure your nails are always on point.",
     },
     {
-      img: "/assets/img/service/hair-highlights-service.png",
-      icon: "/assets/img/service/highlights.svg",
-      text: "Enhance your look with vibrant color treatments and highlights.",
+      img: "",
+      icon: "",
+      text: "Achieve long-lasting shine with our expert gel polish applications.",
       date: "Updated: January 3, 2025",
-      title: "Balayage & Highlights",
+      title: "Gel Polish Applications",
       text1:
-        "Our color experts are skilled in balayage, highlights, and custom color treatments to give you a radiant, natural look.",
+        "Our gel polish services are perfect for those who want vibrant, long-lasting nails. Choose from a wide range of colors and finishes to match your personal style.",
       text2:
-        "Whether you want subtle highlights, vibrant tones, or full-color transformations, we ensure your hair remains healthy and beautiful throughout the process.",
+        "Our expert technicians ensure a flawless application that resists chipping and keeps your nails looking stunning for weeks.",
       text3:
-        "Using top-quality products and personalized techniques, we create colors that enhance your features and make your hair shine.",
+        "Whether you prefer bold colors or neutral tones, we’ve got the perfect gel polish for you.",
     },
     {
-      img: "/assets/img/service/hair-blowout-service.jpg",
-      icon: "/assets/img/service/hairdryer.svg",
-      text: "Experience the luxury of perfectly styled hair with our blowouts.",
+      img: "",
+      icon: "",
+      text: "Express yourself with custom nail art and designs.",
       date: "Updated: January 3, 2025",
-      title: "Luxury Blowouts",
+      title: "Nail Art & Designs",
       text1:
-        "Indulge in a salon-quality blowout that leaves your hair smooth, shiny, and styled to perfection.",
+        "Unleash your creativity with our personalized nail art services. From simple patterns to intricate designs, we bring your vision to life.",
       text2:
-        "Whether it’s for a special occasion or just a treat for yourself, our blowouts deliver long-lasting results you’ll adore.",
+        "Our skilled nail artists use precision techniques to ensure every detail is perfect, creating nails that are truly one of a kind.",
       text3:
-        "With professional-grade products and tools, we ensure your blowout not only looks great but also feels amazing.",
+        "Let your nails be a reflection of your unique personality and style.",
     },
     {
-      img: "/assets/img/service/keratin-service.jpg",
-      icon: "/assets/img/service/keratin-bottle.svg",
-      text: "Smooth, frizz-free hair with our professional keratin treatments.",
+      img: "",
+      icon: "",
+      text: "Enhance your nails with durable acrylic solutions.",
       date: "Updated: January 3, 2025",
-      title: "Keratin Treatments",
+      title: "Acrylic Nail Enhancements",
       text1:
-        "Tired of frizzy, unmanageable hair? Our keratin treatments restore smoothness and shine, making your hair easier to style.",
+        "Our acrylic nail services are designed to add strength, length, and beauty to your natural nails. Perfect for creating bold, long-lasting styles.",
       text2:
-        "We use safe, effective formulas that nourish your hair while delivering long-lasting results.",
+        "We tailor each application to your preferences, ensuring your nails look natural and feel comfortable.",
       text3:
-        "Say goodbye to frizz and hello to effortlessly smooth hair with our customized keratin services.",
+        "Enjoy the perfect blend of durability and elegance with our acrylic enhancements.",
     },
     {
-      img: "/assets/img/service/bridal-hair-service.jpg",
-      icon: "/assets/img/service/diamond-ring.svg",
-      text: "Perfect your look for your big day with our bridal hair services.",
+      img: "",
+      icon: "",
+      text: "Relax and rejuvenate with our luxurious pedicure treatments.",
       date: "Updated: January 3, 2025",
-      title: "Bridal Hair Styling",
+      title: "Luxury Pedicures",
       text1:
-        "Your wedding day deserves a flawless hairstyle. Our bridal hair experts work closely with you to create a look that complements your gown and theme.",
+        "Indulge in a spa-quality pedicure experience that soothes tired feet and leaves your nails perfectly groomed.",
       text2:
-        "From classic updos to modern styles, we ensure your hair is picture-perfect for the most important moments.",
+        "Our pedicure treatments include exfoliation, massage, and polish for a complete rejuvenation.",
       text3:
-        "We offer trial sessions to ensure your wedding day style is exactly what you envision.",
+        "Whether it’s for self-care or a special occasion, our pedicures will have you stepping out in style.",
     },
     {
-      img: "/assets/img/service/scalp-treatment.jpg",
-      icon: "/assets/img/service/woman-hair.svg",
-      text: "Rejuvenate your hair and scalp with our nourishing treatments.",
+      img: "",
+      icon: "",
+      text: "Prepare for your big day with our bridal nail packages.",
       date: "Updated: January 3, 2025",
-      title: "Scalp Treatments",
+      title: "Bridal Nail Packages",
       text1:
-        "Healthy hair starts with a healthy scalp. Our specialized treatments cleanse, nourish, and revitalize your scalp.",
+        "Make your wedding day even more special with nails that are perfectly tailored to your style. From timeless elegance to show-stopping designs, we’ve got you covered.",
       text2:
-        "Whether you’re dealing with dryness, irritation, or buildup, we tailor treatments to meet your needs.",
+        "Our bridal packages include consultations to ensure your nails are exactly as you envision for your big day.",
       text3:
-        "Relax and unwind as we restore balance to your scalp, leaving your hair refreshed and ready to shine.",
+        "Let our team help you shine from head to fingertips on your wedding day.",
     },
-  ];  
+  ];   
 
   const [isOpen7, setIsOpen7] = useState(false);
   const [modalContent, setModalContent] = useState({});
