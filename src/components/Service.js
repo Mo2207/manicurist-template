@@ -14,8 +14,8 @@ const Service = () => {
 
   const services = [
     {
-      img: "",
-      icon: "",
+      img: "/assets/img/service/manicure-service.jpg",
+      icon: "/assets/img/service/manicure.svg",
       text: "Pamper your hands with our luxurious classic manicure services.",
       date: "Updated: January 3, 2025",
       title: "Classic Manicures",
@@ -27,8 +27,8 @@ const Service = () => {
         "Whether it’s for a special occasion or everyday beauty, our manicures ensure your nails are always on point.",
     },
     {
-      img: "",
-      icon: "",
+      img: "/assets/img/service/gel-polish-service.jpg",
+      icon: "/assets/img/service/nail-polish.svg",
       text: "Achieve long-lasting shine with our expert gel polish applications.",
       date: "Updated: January 3, 2025",
       title: "Gel Polish Applications",
@@ -40,8 +40,8 @@ const Service = () => {
         "Whether you prefer bold colors or neutral tones, we’ve got the perfect gel polish for you.",
     },
     {
-      img: "",
-      icon: "",
+      img: "/assets/img/service/nail-art-service.jpg",
+      icon: "/assets/img/service/nail-art.svg",
       text: "Express yourself with custom nail art and designs.",
       date: "Updated: January 3, 2025",
       title: "Nail Art & Designs",
@@ -53,8 +53,8 @@ const Service = () => {
         "Let your nails be a reflection of your unique personality and style.",
     },
     {
-      img: "",
-      icon: "",
+      img: "/assets/img/service/acrylic-nails-service.jpg",
+      icon: "/assets/img/service/acrylic.svg",
       text: "Enhance your nails with durable acrylic solutions.",
       date: "Updated: January 3, 2025",
       title: "Acrylic Nail Enhancements",
@@ -66,8 +66,8 @@ const Service = () => {
         "Enjoy the perfect blend of durability and elegance with our acrylic enhancements.",
     },
     {
-      img: "",
-      icon: "",
+      img: "/assets/img/service/pedicure-service.jpg",
+      icon: "/assets/img/service/foot.svg",
       text: "Relax and rejuvenate with our luxurious pedicure treatments.",
       date: "Updated: January 3, 2025",
       title: "Luxury Pedicures",
@@ -79,8 +79,8 @@ const Service = () => {
         "Whether it’s for self-care or a special occasion, our pedicures will have you stepping out in style.",
     },
     {
-      img: "",
-      icon: "",
+      img: "/assets/img/service/bridal-nail-service.jpg",
+      icon: "/assets/img/service/diamond-ring.svg",
       text: "Prepare for your big day with our bridal nail packages.",
       date: "Updated: January 3, 2025",
       title: "Bridal Nail Packages",
