@@ -11,12 +11,12 @@ const About = () => {
   ];
 
   const progressBarData = [
-    { bgcolor: "#662D91", completed: 95, title: "Haircuts & Styling" },
-    { bgcolor: "#662D91", completed: 90, title: "Balayage & Highlights" },
-    { bgcolor: "#662D91", completed: 85, title: "Root Touch-Ups" },
-    { bgcolor: "#662D91", completed: 95, title: "Luxury Blowouts" },
-    { bgcolor: "#662D91", completed: 80, title: "Keratin Treatments" },
-    { bgcolor: "#662D91", completed: 85, title: "Scalp Treatments" },
+    { bgcolor: "#662D91", completed: 95, title: "Classic Manicures" },
+    { bgcolor: "#662D91", completed: 90, title: "Gel Polish Applications" },
+    { bgcolor: "#662D91", completed: 85, title: "Nail Art & Design" },
+    { bgcolor: "#662D91", completed: 95, title: "Luxury Pedicures" },
+    { bgcolor: "#662D91", completed: 80, title: "Acrylic Nail Enhancements" },
+    { bgcolor: "#662D91", completed: 85, title: "Cuticle Treatments" },
   ];
 
   const services = [
@@ -53,14 +53,14 @@ const About = () => {
             <div className="wrapper w-full h-auto clear-both float-left flex justify-between mt-[55px]">
               <div className="left w-[40%]">
                 <p className="mb-[15px]">
-                Welcome to <strong>Aurora Hair Spa</strong>, your sanctuary for style and relaxation. 
-                Our team of expert stylists are passionate about creating beautiful, personalized looks 
-                that celebrate your individuality and enhance your natural beauty.
+                  Welcome to <strong>Artisan Nails</strong>, your haven for nail artistry and self-care. 
+                  Our team of skilled nail technicians is dedicated to crafting stunning, personalized designs 
+                  that showcase your style and enhance your natural beauty.
                 </p>
                 <p>
-                At Aurora Hair Spa, we offer a wide range of services, from precision haircuts to luxurious 
-                color treatments, all tailored to match your unique preferences. Our mission is to provide 
-                a calming, rejuvenating experience while helping you look and feel your absolute best.
+                  At Artisan Nails, we offer a wide array of services, from classic manicures to intricate nail art, 
+                  all tailored to suit your preferences. Our mission is to create a relaxing, rejuvenating environment 
+                  while delivering flawless nails that leave you feeling confident and pampered.
                 </p>
               </div>
               <div className="right w-[50%]">
@@ -104,7 +104,7 @@ const About = () => {
                         className="text-[#7d7789] transition-all duration-300 hover:text-[#333]"
                         href="#"
                       >
-                        auroraHairSpa@gmail.com
+                        ArtisanNails@gmail.com
                       </a>
                     </span>
                   </li>
@@ -131,25 +131,25 @@ const About = () => {
                 <div className="list w-full h-auto clear-both float-left mt-[55px]">
                   <ul>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Haircuts & Styling 
+                    Classic Manicures
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Balayage & Highlights  
+                    Gel Polish Applications  
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Root Touch-Ups
+                    Nail Art & Designs
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Luxury Blowouts  
+                    Luxury Pedicures  
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Keratin Treatments 
+                    Acrylic Nail Enhancements
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Bridal Hair Styling 
+                    Bridal Nail Packages
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Scalp Treatments 
+                    Cuticle Treatments 
                     </li>
                   </ul>
                 </div>
@@ -163,25 +163,25 @@ const About = () => {
                 <div className="list w-full h-auto clear-both float-left mt-[55px]">
                   <ul>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Haircare Innovations 
+                    Nail Care Innovations
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Sustainable Beauty  
+                    Sustainable Nail Artistry
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Client-Centered Experiences 
+                    Client-Centered Nail Experiences
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Precision & Creativity  
+                    Precision & Elegance
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Relaxation & Wellness   
+                    Relaxation & Pampering
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Transformative Style  
+                    Transformative Nail Art
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Creative Expression
+                    Creative Nail Designs
                     </li>
                   </ul>
                 </div>
