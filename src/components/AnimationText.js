@@ -9,9 +9,9 @@ const TypingAnimation = () => {
     const typed = new Typed(el.current, {
       strings: [
         "modern escape for your mind, body, and spirit.",
-        "artistry at Your Fingertips",
-        "flawless Nails, Every Time",
-        "where Beauty Meets Precision"
+        "artistry at your fingertips",
+        "flawless nails, every time",
+        "where beauty meets precision"
       ], // Strings to display
       typeSpeed: 100,
       backSpeed: 60,
