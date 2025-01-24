@@ -159,7 +159,7 @@ const Header = () => {
               >
                 <a
                   onClick={() => navChange(nav.href)}
-                  className="text-[#333] font-roboto font-medium py-0 px-[30px] inline-block transition-all duration-300"
+                  className="text-[#333] font-roboto font-light py-0 px-[30px] inline-block transition-all duration-300"
                   href={`/#${nav.href}`}
                 >
                   {nav.name}
