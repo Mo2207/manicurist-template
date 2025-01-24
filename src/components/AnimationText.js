@@ -8,7 +8,7 @@ const TypingAnimation = () => {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "Nail Perfection",
+        "Modern escape for your mind, body, and spirit.",
         "Artistry at Your Fingertips",
         "Flawless Nails, Every Time",
         "Where Beauty Meets Precision"

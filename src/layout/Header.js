@@ -78,11 +78,11 @@ const Header = () => {
                     } mb-[7px]`}
                   >
                     <a
-                      onClick={() => {
+                      onClick={() => { 
                         navChange(nav.href);
                         setToggle(false);
                       }}
-                      className="text-[#333] font-poppins"
+                      className="text-[#333] font-roboto"
                       href={`#${nav.href}`}
                     >
                       {nav.name}
@@ -159,7 +159,7 @@ const Header = () => {
               >
                 <a
                   onClick={() => navChange(nav.href)}
-                  className="text-[#333] font-poppins font-medium py-0 px-[30px] inline-block transition-all duration-300"
+                  className="text-[#333] font-roboto font-medium py-0 px-[30px] inline-block transition-all duration-300"
                   href={`/#${nav.href}`}
                 >
                   {nav.name}

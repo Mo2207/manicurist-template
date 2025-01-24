@@ -14,7 +14,7 @@
 .cavani_tm_header .menu ul li a:after {
   left: 0;
   height: 0;
-  background: #333;
+  background: rgb(247 212 232 / var(--tw-text-opacity));
   content: "";
   position: absolute;
   width: 0;
@@ -26,17 +26,18 @@
 .cavani_tm_header .menu ul li.active a {
   left: 0;
   height: 0;
-  background: #333;
   height: 100%;
   z-index: 100;
-  color: #fff;
+  color: rgb(37 9 46 / var(--tw-text-opacity));
   border-radius: 1rem;
+  border-color: #f7d4e8;
 }
 
 .cavani_tm_header .menu ul li a:hover:after,
 .cavani_tm_header .menu ul li.active a:after {
   width: 100%;
   border-radius: 1rem;
+  border-color: #f7d4e8;
 }
 .cd-headline.clip .cd-words-wrapper::after {
   display: none;
