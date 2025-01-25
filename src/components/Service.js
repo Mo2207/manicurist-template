@@ -115,14 +115,28 @@ const Service = () => {
                 {services?.map((item, i) => (
                   <li className="mb-[50px] w-1/2 pl-[50px]" key={i}>
                     <div className="list_inner w-full h-full clear-both float-left relative border-solid border-[#b9b8c3] border py-[70px] px-[40px] text-center transition-all duration-300 hover:bg-[#333] rounded-xl font-roboto">
-                      <Image
-                        // className="svg inline-block max-w-[60px] max-h-[60px] w-full h-full text-[#333] mb-[27px] transition-all duration-300"
-                        className="inline-block w-[60px] h-[60px] text-[#333] mb-[27px] transition-all duration-300 mx-auto"
-                        src={item.icon}
-                        alt={true.toString()}
-                        width={60}
-                        height={60}
-                      />
+                      <div className="relative inline-block mx-auto mb-[27px]">
+                        <div
+                          alt="Aura"
+                          className="absolute inset-0 z-[-1]"
+                          style={{
+                            backgroundImage: `url(/assets/img/service/purple-aura.png)`,
+                            left: "50%",
+                            top: "50%",
+                            transform: "translate(-50%, -50%)",
+                            width: "200px",
+                            height: "200px",
+                            
+                          }}
+                        />
+                        <Image
+                          className="relative inline-block w-[60px] h-[60px] z-[1] transition-all duration-300"
+                          src={item.icon}
+                          alt={true.toString()}
+                          width={60}
+                          height={60}
+                        />
+                      </div>
                       <h3 className="title font-semimedium text-[24px] text-[#333] mb-[15px] transition-all duration-300">
                         {item.title}
                       </h3>
