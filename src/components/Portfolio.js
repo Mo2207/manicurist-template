@@ -54,7 +54,7 @@ const portfolioData = [
   {
     title: "Luxury Pedicure",
     category: "Luxury Pedicures",
-    image: "/assets/img/portfolio/pedicure.jpg",
+    image: "/assets/img/portfolio/pedicure.jpeg",
     content: [
       "Treat your feet to the ultimate relaxation with our luxury pedicure services.",
       "Our treatments include exfoliation, massage, and polish, leaving your feet soft and rejuvenated.",
