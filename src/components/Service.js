@@ -116,9 +116,9 @@ const Service = () => {
                   <li className="mb-[50px] w-1/2 pl-[50px]" key={i}>
                     <div className="list_inner w-full h-full clear-both float-left relative border-solid border-[#b9b8c3] border py-[70px] px-[40px] text-center transition-all duration-300 hover:bg-[#333] rounded-xl font-roboto">
                       <div className="relative inline-block mx-auto mb-[27px]">
-                        <div
+                        <div // background aura for svg
                           alt="Aura"
-                          className="absolute inset-0 z-[-1]"
+                          className="absolute"
                           style={{
                             backgroundImage: `url(/assets/img/service/purple-aura.png)`,
                             left: "50%",
@@ -126,10 +126,9 @@ const Service = () => {
                             transform: "translate(-50%, -50%)",
                             width: "200px",
                             height: "200px",
-                            
                           }}
                         />
-                        <Image
+                        <Image // svg icon
                           className="relative inline-block w-[60px] h-[60px] z-[1] transition-all duration-300"
                           src={item.icon}
                           alt={true.toString()}
