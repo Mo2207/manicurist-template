@@ -18,7 +18,7 @@ const Service = () => {
       icon: "/assets/img/service/manicure.svg",
       text: "Pamper your hands with our luxurious classic manicure services.",
       date: "Updated: January 3, 2025",
-      title: "Classic Manicures",
+      title: "Classic Manicure",
       text1:
         "At Artisan Nails, we specialize in classic manicures that leave your hands looking and feeling their best. Our skilled technicians focus on shaping, buffing, and polishing your nails to perfection.",
       text2:
@@ -31,7 +31,7 @@ const Service = () => {
       icon: "/assets/img/service/nail-polish.svg",
       text: "Achieve long-lasting shine with our expert gel polish applications.",
       date: "Updated: January 3, 2025",
-      title: "Gel Polish Applications",
+      title: "Nail Polish",
       text1:
         "Our gel polish services are perfect for those who want vibrant, long-lasting nails. Choose from a wide range of colors and finishes to match your personal style.",
       text2:
@@ -39,25 +39,25 @@ const Service = () => {
       text3:
         "Whether you prefer bold colors or neutral tones, we’ve got the perfect gel polish for you.",
     },
-    {
-      img: "/assets/img/service/nail-art-service.jpg",
-      icon: "/assets/img/service/nail-art.svg",
-      text: "Express yourself with custom nail art and designs.",
-      date: "Updated: January 3, 2025",
-      title: "Nail Art & Designs",
-      text1:
-        "Unleash your creativity with our personalized nail art services. From simple patterns to intricate designs, we bring your vision to life.",
-      text2:
-        "Our skilled nail artists use precision techniques to ensure every detail is perfect, creating nails that are truly one of a kind.",
-      text3:
-        "Let your nails be a reflection of your unique personality and style.",
-    },
+    // {
+    //   img: "/assets/img/service/nail-art-service.jpg",
+    //   icon: "/assets/img/service/nail-art.svg",
+    //   text: "Express yourself with custom nail art and designs.",
+    //   date: "Updated: January 3, 2025",
+    //   title: "Nail Art & Designs",
+    //   text1:
+    //     "Unleash your creativity with our personalized nail art services. From simple patterns to intricate designs, we bring your vision to life.",
+    //   text2:
+    //     "Our skilled nail artists use precision techniques to ensure every detail is perfect, creating nails that are truly one of a kind.",
+    //   text3:
+    //     "Let your nails be a reflection of your unique personality and style.",
+    // },
     {
       img: "/assets/img/service/acrylic-nails-service.jpg",
       icon: "/assets/img/service/acrylic.svg",
       text: "Enhance your nails with durable acrylic solutions.",
       date: "Updated: January 3, 2025",
-      title: "Acrylic Nail Enhancements",
+      title: "Acrylic Nails",
       text1:
         "Our acrylic nail services are designed to add strength, length, and beauty to your natural nails. Perfect for creating bold, long-lasting styles.",
       text2:
@@ -70,7 +70,7 @@ const Service = () => {
       icon: "/assets/img/service/foot.svg",
       text: "Relax and rejuvenate with our luxurious pedicure treatments.",
       date: "Updated: January 3, 2025",
-      title: "Luxury Pedicures",
+      title: "Foot Massage",
       text1:
         "Indulge in a spa-quality pedicure experience that soothes tired feet and leaves your nails perfectly groomed.",
       text2:
@@ -78,19 +78,19 @@ const Service = () => {
       text3:
         "Whether it’s for self-care or a special occasion, our pedicures will have you stepping out in style.",
     },
-    {
-      img: "/assets/img/service/bridal-nail-service.jpg",
-      icon: "/assets/img/service/diamond-ring.svg",
-      text: "Prepare for your big day with our bridal nail packages.",
-      date: "Updated: January 3, 2025",
-      title: "Bridal Nail Packages",
-      text1:
-        "Make your wedding day even more special with nails that are perfectly tailored to your style. From timeless elegance to show-stopping designs, we’ve got you covered.",
-      text2:
-        "Our bridal packages include consultations to ensure your nails are exactly as you envision for your big day.",
-      text3:
-        "Let our team help you shine from head to fingertips on your wedding day.",
-    },
+    // {
+    //   img: "/assets/img/service/bridal-nail-service.jpg",
+    //   icon: "/assets/img/service/diamond-ring.svg",
+    //   text: "Prepare for your big day with our bridal nail packages.",
+    //   date: "Updated: January 3, 2025",
+    //   title: "Bridal Nail Packages",
+    //   text1:
+    //     "Make your wedding day even more special with nails that are perfectly tailored to your style. From timeless elegance to show-stopping designs, we’ve got you covered.",
+    //   text2:
+    //     "Our bridal packages include consultations to ensure your nails are exactly as you envision for your big day.",
+    //   text3:
+    //     "Let our team help you shine from head to fingertips on your wedding day.",
+    // },
   ];   
 
   const [isOpen7, setIsOpen7] = useState(false);
