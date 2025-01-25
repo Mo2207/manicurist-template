@@ -3544,7 +3544,7 @@ h6 {
 }
 
 .rounded-xl {
-  border-radius: 1rem;
+  border-radius: 2rem;
 }
 
 .rounded-2xl {
@@ -4062,6 +4062,10 @@ h6 {
 
 .font-light {
   font-weight: 300;
+}
+
+.font-semimedium {
+  font-weight: 400;
 }
 
 .font-medium {
