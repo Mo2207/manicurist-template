@@ -14,7 +14,7 @@ const portfolioData = [
   {
     title: "Classic Manicure",
     category: "Classic Manicures",
-    image: "/assets/img/portfolio/classic-manicure.jpg",
+    image: "/assets/img/portfolio/classic-manicure.webp",
     content: [
       "Pamper your hands with our luxurious classic manicure services.",
       "Our expert technicians shape, buff, and polish your nails to perfection, leaving your hands looking flawless.",
@@ -34,7 +34,7 @@ const portfolioData = [
   {
     title: "Creative Nail Art",
     category: "Nail Art & Designs",
-    image: "/assets/img/portfolio/nail-art.jpg",
+    image: "/assets/img/portfolio/nail-art.webp",
     content: [
       "Unleash your creativity with our custom nail art and designs.",
       "From minimalist patterns to intricate details, our talented artists bring your vision to life.",
@@ -294,7 +294,7 @@ const Portfolio = () => {
               <ul className="flex flex-wrap">
                 {filteredData?.map((item, i) => {
                   return (
-                    <li key={`portfolio-${i}`} className="youtube mb-[50px] w-1/2 float-left pl-[50px] item__">
+                    <li key={`portfolio-${i}`} className="youtube mb-[50px] w-1/2 float-left pr-[50px] item__">
                       <button onClick={() => toggleModal(item)} className="w-full h-full">
                       <div className="list_inner w-full h-full clear-both float-left relative overflow-hidden">
                           <div

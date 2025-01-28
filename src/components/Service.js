@@ -66,7 +66,7 @@ const Service = () => {
         "Enjoy the perfect blend of durability and elegance with our acrylic enhancements.",
     },
     {
-      img: "/assets/img/service/pedicure-service.jpg",
+      img: "/assets/img/service/pedicure-service.webp",
       icon: "/assets/img/service/foot.svg",
       text: "Relax and rejuvenate with our luxurious pedicure treatments.",
       date: "Updated: January 3, 2025",
@@ -79,7 +79,7 @@ const Service = () => {
         "Whether it’s for self-care or a special occasion, our pedicures will have you stepping out in style.",
     },
     {
-      img: "/assets/img/service/bridal-nail-service.jpg",
+      img: "/assets/img/service/bridal-nail-service.png",
       icon: "/assets/img/service/diamond-ring.svg",
       text: "Prepare for your big day with our bridal nail packages.",
       date: "Updated: January 3, 2025",
