@@ -3558,6 +3558,10 @@ h6 {
   border-radius: 3rem;
 }
 
+.rounded-6xl {
+  border-radius: 15rem;
+}
+
 .rounded-1xl {
   border-radius: 0.75rem;
 }
