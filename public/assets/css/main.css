@@ -700,7 +700,7 @@ h6 {
   right: 0px;
   width: 100px;
   --tw-bg-opacity: 1;
-  background-color: rgb(246 251 255 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-content: "";
   content: var(--tw-content);
 }
@@ -1435,7 +1435,7 @@ h6 {
 }
 
 .cavani_tm_mainpart {
-  background-color: rgb(246 251 255 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   border-radius: 2rem;
 }
 
@@ -1803,7 +1803,7 @@ h6 {
     padding-right: 20px;
     padding-top: 57px;
     padding-bottom: 0px;
-    background: #f6fbff;
+    background: #ffffff;
   }
 }
 
@@ -3558,7 +3558,7 @@ h6 {
   border-radius: 3rem;
 }
 
-.rounded-6xl {
+.rounded-15xl {
   border-radius: 15rem;
 }
 

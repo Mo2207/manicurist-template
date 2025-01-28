@@ -26,7 +26,7 @@ const Particles = () => {
   return (
     <div className={`author_image absolute top-0 right-0 bottom-0 w-[40%] z-[15] ${nav !== 'home' ? 'middle:hidden' : ''}`}>
       <div
-        className="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-6xl"
+        className="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-15xl"
         data-img-url="/assets/img/about/nails-frontpage.png"
       />
       {/* <div className="particle_wrapper">
