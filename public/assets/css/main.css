@@ -61,6 +61,16 @@ body {
   /* 2 */
 }
 
+.purple-background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 25vw;
+  height: 100vh;
+  background-color: #f7d4e8;
+  z-index: -10;
+}
+
 /*
 1. Add the correct height in Firefox.
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
