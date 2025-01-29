@@ -128,7 +128,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="cavani_tm_header fixed top-0 left-0 right-0 h-[70px] leading-[70px] bg-white z-[10] flex items-center justify-between py-0 px-[70px] middle:hidden">
+      <div className="cavani_tm_header fixed top-0 left-0 right-0 h-[70px] leading-[70px] z-[10] flex items-center justify-between py-0 px-[70px] middle:hidden">
         <div className="logo" data-type="image">
           {" "}
           {/* You can use text or image as logo. data-type values are: "image" and "text"  */}

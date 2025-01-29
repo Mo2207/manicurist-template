@@ -64,11 +64,11 @@ body {
 .purple-background {
   position: fixed;
   top: 0;
-  right: 0;
-  width: 25vw;
-  height: 100vh;
+  left: 0;
+  /* width: 25vw;
+  height: 100vh; */
   background-color: #f7d4e8;
-  z-index: -10;
+  z-index: 1;
 }
 
 /*

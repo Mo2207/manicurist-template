@@ -24,7 +24,8 @@ const Layout = ({ children }) => {
         data-magic-cursor="show"
         data-enter="fadeInUp"
       >
-        <div className="cavani_tm_left_border fixed inset-y-0 left-0 w-[70px] bg-white z-[10]" />
+        <div className="absolute inset-0 w-1/4 purple-background" />
+        <div className="cavani_tm_left_border fixed inset-y-0 left-0 w-[70px] bg-white z-[-1]" />
         <div className="cavani_tm_right_border fixed inset-y-0 right-0 w-[70px] bg-white z-[10]" />
 
         {/* HEADER */}

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="cavani_tm_footer fixed inset-x-0 bottom-0 bg-white z-[10] h-[70px] leading-[70px] flex items-center justify-between py-0">
+    <div className="cavani_tm_footer fixed inset-x-0 bottom-0 z-[10] h-[70px] leading-[70px] flex items-center justify-between py-0">
       <div className="copyright">
         {/* <p className="text-[#333] font-poppins">Copyright © 2024</p> */}
         <div className="flex items-center gap-8">
