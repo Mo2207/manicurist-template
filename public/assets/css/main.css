@@ -1667,6 +1667,15 @@ h6 {
     opacity: 0;
   }
 
+  .rounded-frontpage-image {
+    border-radius: 0rem !important;
+  }
+
+  .purple-background {
+    background-color: #ffffff !important;
+    z-index: -1;
+  }
+
   .mouse-cursor {
     display: none;
   }
@@ -3568,7 +3577,7 @@ h6 {
   border-radius: 3rem;
 }
 
-.rounded-15xl {
+.rounded-frontpage-image {
   border-radius: 15rem;
 }
 
